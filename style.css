@@ -1,0 +1,21 @@
+.container {
+display: flex;
+flex-wrap: wrap;
+gap: 100px;
+justify-content: center ;
+}
+
+.figure {
+    text-align: center;
+    width: 250px;
+    /* Лучше убрать фиксированную высоту, пусть блок растёт по содержимому */
+}
+
+figure img {
+  width: 220px !important;    /* строго задаём ширину */
+  height: auto !important;    /* сохраняем пропорции */
+  display: block !important;
+  margin: 0 auto !important;
+  object-fit: contain !important;  /* работает если задан фиксированный height */
+  border: 2px solid green !important;
+}
