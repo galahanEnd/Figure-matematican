@@ -2,6 +2,15 @@ body {
   background-color: #f0f0f0;
   font-family: Georgia, serif;
 }
+h1 {
+    color: rgb(149, 255, 0);
+    font-size: 60px;
+    font-style: Impact, fantasi;
+    text-align: center;
+    line-height: 1;
+    letter-spacing: 3px;
+    text-decoration: underline overline #813bcc;
+}
 .container {
     display: flex;
     flex-wrap: wrap;
