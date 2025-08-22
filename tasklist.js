@@ -10,6 +10,9 @@ button.addEventListener('click', () => {
     const checkBox = document.createElement('input');
     checkBox.type = 'checkbox';
     const delButton = document.createElement('button');
+    delButton.addEventListener('click', () => {
+        li.remove();
+    })
     li.textContent = taskText;
     delButton.textContent = 'Удалить';
     list.appendChild(li);
