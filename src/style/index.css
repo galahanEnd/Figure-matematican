@@ -1,7 +1,7 @@
-@import 'normalize.css';
-@import 'fonts.css';
-@import 'globals.css';
-@import 'variables.css';
+@import "normalize.css";
+@import "fonts.css";
+@import "globals.css";
+@import "variables.css";
 
 @import 'components/button.css';
 @import 'components/filed.css';
