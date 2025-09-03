@@ -11,6 +11,7 @@
     &:hover {
         color: var(--color-dark-2);
         background-color: transparent;
+        
     }
 
     &:active {
