@@ -11,7 +11,11 @@
     }
 }
     
+<<<<<<< HEAD
 .todo-item__chekbox {
+=======
+.todo-item__checkbox {
+>>>>>>> 2374b9f1157189086cafd423e1d92a2b0b0afae1
     flex-shrink: 0;
     appearance: none;
     position: relative;
@@ -47,10 +51,24 @@
         translate: -50% -50%;
         width: 16px;
         height: 16px;
+<<<<<<< HEAD
         background-image: url("/src/icons/icon-chexbox.svg") center/contain no-repeat;
     }
 }
 
+=======
+        background-image: url("/src/icons/icon-chexbox.svg");
+        background-repeat: no-repeat;
+    }
+}
+
+.todo-item__lable {
+
+    width: 100%;
+    pointer-events: none;
+}
+
+>>>>>>> 2374b9f1157189086cafd423e1d92a2b0b0afae1
     .todo-item__delete-button {
         flex-shrink: 0;
         display: inline-flex;
